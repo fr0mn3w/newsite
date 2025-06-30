@@ -25,8 +25,6 @@ Prototyping is especially powerful because, unlike a brief, it allows interactio
 
 The first prototype of the concept that would later become [[New Demos]] was a tweet:
 
-# My Blog Post Title
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Toronto: our tech and creative community is unnecessarily isolated<br><br>Something to help<br><br>Monthly event of curated demos with ground rules (time limits, etc), participants vote on demos, most votes gets $ (1k-10k) to continue work, drinks after, event is Roncesvalles<br><br>Lmk if u want</p>&mdash; internetVin (@internetvin) <a href="https://twitter.com/internetvin/status/1727759489351200849?ref_src=twsrc%5Etfw">November 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This tweet specifically tested:

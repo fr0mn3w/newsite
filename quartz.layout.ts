@@ -18,7 +18,12 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => {
+        // Hide breadcrumbs on index page (multiple checks)
+        return page.fileData.slug !== "index" && 
+               page.fileData.slug !== "" &&
+               page.slug !== "index";
+      },
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),

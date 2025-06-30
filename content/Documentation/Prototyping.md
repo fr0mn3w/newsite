@@ -25,7 +25,7 @@ Prototyping is especially powerful because, unlike a brief, it allows interactio
 
 The first prototype of the concept that would later become [[New Demos]] was a tweet:
 
-![[https://x.com/internetvin/status/1727759489351200849?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1727759489351200849%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=]]
+https://x.com/internetvin/status/1727759489351200849?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1727759489351200849%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=
 
 This tweet specifically tested:
 
@@ -66,7 +66,7 @@ In direct response to the challenges identified in the first event, the next pro
 - A more balanced selection of demos, including greater representation of creative fields along side tech.
 - Active outreach efforts were made to improve audience gener diversity, resulting in a more balanced attendance.
 
-![[https://x.com/newsystems_/status/1773052908822519819?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1773052908822519819%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=]]
+https://x.com/newsystems_/status/1773052908822519819?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1773052908822519819%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=
 
 Insights from this event confirmed the effectiveness of specific improvements, particularly the impact of high-quality AV, balanced content, distinctive art direction, and active diversity outreach.
 

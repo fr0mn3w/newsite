@@ -40,7 +40,7 @@ Using insights from the tweet prototype, the first physical event named "[New De
 was created.
 
 - We secured a venue in Roncesvalles and sponsorship from local companies.
-- Tommy joined to help specifically with logistic and planning the event.
+- [[Tommy]] joined to help specifically with logistic and planning the event.
 - Regular updates were shared online to build anticipation and gather feedback.
 
 Outcomes included:
@@ -49,7 +49,7 @@ Outcomes included:
 
 - The venue reached full capacity with approximately 100 attendees.
 - Online feedback after the event was consistently positive, highlighting the quality of presentations and the sense of community.
-- [Vin](https://publish.obsidian.md/new/Vin), [Tommy](https://publish.obsidian.md/new/Tommy), and [Vince](https://publish.obsidian.md/new/Vince) were able to discover a comedic banter, that included making jokes, or using the sound effects from the Rodecaster Pro during the demos. Comedy would become a core element of projects going forward.
+- [[Vin]], [[Tommy]], and [[Vince]] were able to discover a comedic banter, that included making jokes, or using the sound effects from the Rodecaster Pro during the demos. Comedy would become a core element of projects going forward.
 
 **Challenges:**
 

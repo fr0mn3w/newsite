@@ -51,7 +51,7 @@ export const defaultContentPageLayout: PageLayout = {
         
         // Check by other properties just in case
         if (node.data) {
-          if (node.data.slug === "index" || node.data.title === "Home") {
+          if (node.data.slug === "index" || node.data.title === "Index") {
             return false;
           }
         }
@@ -96,7 +96,7 @@ export const defaultListPageLayout: PageLayout = {
         
         // Check by other properties just in case
         if (node.data) {
-          if (node.data.slug === "index" || node.data.title === "Home") {
+          if (node.data.slug === "index" || node.data.title === "Index") {
             return false;
           }
         }

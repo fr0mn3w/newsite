@@ -23,16 +23,23 @@ For example, here's what the default configuration looks like:
 
 ```typescript title="quartz.layout.ts"
 Component.Explorer({
-  title: "Explorer", // title of the explorer component
-  folderClickBehavior: "collapse", // what happens when you click a folder ("link" to navigate to folder page on click or "collapse" to collapse folder on click)
-  folderDefaultState: "collapsed", // default state of folders ("collapsed" or "open")
-  useSavedState: true, // whether to use local storage to save "state" (which folders are opened) of explorer
-  // omitted but shown later
-  sortFn: ...,
-  filterFn: ...,
-  mapFn: ...,
-  // what order to apply functions in
-  order: ["filter", "map", "sort"],
+  title: "Explorer", 
+  folderClickBehavior: "collapse", 
+  folderDefaultState: "collapsed", 
+  useSavedState: true,
+  filterFn: (node) => {
+    // Filter out the index page from the explorer
+    // Check if this is the index page by slug
+    if (node.data?.slug === "index") {
+      return false
+    }
+    // Also check by display name as a backup
+    if (node.displayName.toLowerCase() === "index") {
+      return false
+    }
+    // Keep all other files and folders
+    return true
+  },
 })
 ```
 

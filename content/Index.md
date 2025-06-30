@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Home
 hideTitle: true
 hideMeta: true
 enableToc: false

@@ -25,7 +25,9 @@ Prototyping is especially powerful because, unlike a brief, it allows interactio
 
 The first prototype of the concept that would later become [[New Demos]] was a tweet:
 
-https://x.com/internetvin/status/1727759489351200849?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1727759489351200849%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=
+# My Blog Post Title
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Toronto: our tech and creative community is unnecessarily isolated<br><br>Something to help<br><br>Monthly event of curated demos with ground rules (time limits, etc), participants vote on demos, most votes gets $ (1k-10k) to continue work, drinks after, event is Roncesvalles<br><br>Lmk if u want</p>&mdash; internetVin (@internetvin) <a href="https://twitter.com/internetvin/status/1727759489351200849?ref_src=twsrc%5Etfw">November 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This tweet specifically tested:
 
@@ -66,7 +68,7 @@ In direct response to the challenges identified in the first event, the next pro
 - A more balanced selection of demos, including greater representation of creative fields along side tech.
 - Active outreach efforts were made to improve audience gener diversity, resulting in a more balanced attendance.
 
-https://x.com/newsystems_/status/1773052908822519819?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1773052908822519819%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Introducing: New Demos 2<br> <br>A showcase of what we make with our computers.<br><br>April 10, 2024<br>8pm, Revue Cinema<br>Roncesvalles, Toronto<br><br>Tickets now on sale. Link below. <a href="https://t.co/yTHm2K1ScK">pic.twitter.com/yTHm2K1ScK</a></p>&mdash; New (@newsystems_) <a href="https://twitter.com/newsystems_/status/1773052908822519819?ref_src=twsrc%5Etfw">March 27, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Insights from this event confirmed the effectiveness of specific improvements, particularly the impact of high-quality AV, balanced content, distinctive art direction, and active diversity outreach.
 

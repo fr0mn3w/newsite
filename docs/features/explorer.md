@@ -30,11 +30,11 @@ Component.Explorer({
   filterFn: (node) => {
     // Filter out the index page from the explorer
     // Check if this is the index page by slug
-    if (node.data?.slug === "index") {
+    if (node.data?.slug === "home") {
       return false
     }
     // Also check by display name as a backup
-    if (node.displayName.toLowerCase() === "index") {
+    if (node.displayName.toLowerCase() === "Home") {
       return false
     }
     // Keep all other files and folders

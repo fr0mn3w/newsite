@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Home
 hideTitle: true
 hideMeta: true
 enableToc: false

@@ -20,13 +20,13 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => {
         // Multiple ways to check if this is the index page
-        const isIndex = page.fileData.slug === "index" || 
+        const isHome = page.fileData.slug === "home" || 
                        page.fileData.slug === "" ||
-                       page.slug === "index" ||
-                       page.fileData.frontmatter?.title === "Index" ||
+                       page.slug === "home" ||
+                       page.fileData.frontmatter?.title === "Home" ||
                        !page.fileData.slug; // Empty slug often means index
         
-        return !isIndex; // Return false (hide breadcrumbs) if it's the index page
+        return !isHome; // Return false (hide breadcrumbs) if it's the index page
       },
     }),
     Component.ArticleTitle(),
@@ -54,13 +54,13 @@ export const defaultContentPageLayout: PageLayout = {
         }
         
         // Also filter out the index page
-        if (node.slugSegment === "index") {
+        if (node.slugSegment === "home") {
           return false;
         }
         
         // Check by other properties just in case
         if (node.data) {
-          if (node.data.slug === "index" || node.data.title === "Index") {
+          if (node.data.slug === "home" || node.data.title === "Home") {
             return false;
           }
         }
@@ -99,13 +99,13 @@ export const defaultListPageLayout: PageLayout = {
         }
         
         // Also filter out the index page
-        if (node.slugSegment === "index") {
+        if (node.slugSegment === "home") {
           return false;
         }
         
         // Check by other properties just in case
         if (node.data) {
-          if (node.data.slug === "index" || node.data.title === "Index") {
+          if (node.data.slug === "home" || node.data.title === "Home") {
             return false;
           }
         }

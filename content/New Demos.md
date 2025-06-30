@@ -1,4 +1,4 @@
-New Demos is an event series in Toronto that showcases unique creations across art, technology, games, food, and more.
+[New Demos](newdemos.ca) is an event series in Toronto that showcases unique creations across art, technology, games, food, and more.
 
 ### How It Works 
 

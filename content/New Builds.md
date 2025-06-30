@@ -1,5 +1,3 @@
-[Visit the New Builds Official Website](https://www.newdemos.ca/)
-
 New Builds reimagines the traditional hackathon by combining intensive 48-hour project development with a sports-style draft for team formation. This approach encourages cross-pollination of skills and perspectives across Toronto's tech ecosystem.
 
 ### How It Works 

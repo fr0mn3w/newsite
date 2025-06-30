@@ -23,7 +23,9 @@ Prototyping is especially powerful because, unlike a brief, it allows interactio
 
 ##### Prototype 1: Concept Validation (Tweet) 
 
-The first prototype of the concept that would later become [New Demos](https://publish.obsidian.md/new/New/New+Demos) was a tweet:
+The first prototype of the concept that would later become [[New Demos]] was a tweet:
+
+![[https://x.com/internetvin/status/1727759489351200849?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1727759489351200849%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=]]
 
 This tweet specifically tested:
 

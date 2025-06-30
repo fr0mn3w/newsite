@@ -178,21 +178,16 @@ You can access the tags of a file by `node.data.tags`.
 
 ```ts title="quartz.layout.ts"
 Component.Explorer({
-  filterFn: (node) => {
-    // exclude files with the tag "explorerexclude"
-    return node.data.tags?.includes("explorerexclude") !== true
-  },
-})
-```
-
-### Show every element in explorer
-
-By default, the explorer will filter out the `tags` folder.
-To override the default filter function, you can set the filter function to `undefined`.
-
-```ts title="quartz.layout.ts"
-Component.Explorer({
-  filterFn: undefined, // apply no filter function, every file and folder will visible
+  title: "Explorer", // title of the explorer component
+  folderClickBehavior: "collapse", // what happens when you click a folder ("link" to navigate to folder page on click or "collapse" to collapse folder on click)
+  folderDefaultState: "collapsed", // default state of folders ("collapsed" or "open")
+  useSavedState: true, // whether to use local storage to save "state" (which folders are opened) of explorer
+  // omitted but shown later
+  sortFn: ...,
+  filterFn: ...,
+  mapFn: ...,
+  // what order to apply functions in
+  order: ["filter", "map", "sort"],
 })
 ```
 

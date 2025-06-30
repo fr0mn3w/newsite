@@ -37,7 +37,28 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        // Keep the default behavior (filter out tags)
+        if (node.slugSegment === "tags") {
+          return false;
+        }
+        
+        // Also filter out the index page
+        if (node.slugSegment === "index") {
+          return false;
+        }
+        
+        // Check by other properties just in case
+        if (node.data) {
+          if (node.data.slug === "index" || node.data.title === "Home") {
+            return false;
+          }
+        }
+        
+        return true;
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -61,7 +82,28 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        // Keep the default behavior (filter out tags)
+        if (node.slugSegment === "tags") {
+          return false;
+        }
+        
+        // Also filter out the index page
+        if (node.slugSegment === "index") {
+          return false;
+        }
+        
+        // Check by other properties just in case
+        if (node.data) {
+          if (node.data.slug === "index" || node.data.title === "Home") {
+            return false;
+          }
+        }
+        
+        return true;
+      },
+    }),
   ],
   right: [],
 }

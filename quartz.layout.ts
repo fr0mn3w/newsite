@@ -19,10 +19,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
       condition: (page) => {
-        // Hide breadcrumbs on index page (multiple checks)
-        return page.fileData.slug !== "index" && 
-               page.fileData.slug !== "" &&
-               page.slug !== "index";
+        // Multiple ways to check if this is the index page
+        const isIndex = page.fileData.slug === "index" || 
+                       page.fileData.slug === "" ||
+                       page.slug === "index" ||
+                       page.fileData.frontmatter?.title === "Index" ||
+                       !page.fileData.slug; // Empty slug often means index
+        
+        return !isIndex; // Return false (hide breadcrumbs) if it's the index page
       },
     }),
     Component.ArticleTitle(),

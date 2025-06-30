@@ -28,16 +28,27 @@ Component.Explorer({
   folderDefaultState: "collapsed", 
   useSavedState: true,
   filterFn: (node) => {
-    // Filter out the index page from the explorer
-    // Check if this is the index page by slug
-    if (node.data?.slug === "home") {
+    // Filter out the index page
+    if (node.data) {
+      // Check by slug (should be "index" for index.md)
+      if (node.data.slug === "index" || node.data.slug === "") {
+        return false
+      }
+      // Check by title (your index page has title: "Home")
+      if (node.data.title && node.data.title.toLowerCase() === "home") {
+        return false
+      }
+    }
+    
+    // Check by display name
+    const displayName = node.displayName.toLowerCase()
+    if (displayName === "index" || 
+        displayName === "index.md" || 
+        displayName === "home") {
       return false
     }
-    // Also check by display name as a backup
-    if (node.displayName.toLowerCase() === "Home") {
-      return false
-    }
-    // Keep all other files and folders
+    
+    // Keep everything else
     return true
   },
 })

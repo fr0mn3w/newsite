@@ -23,7 +23,7 @@ export const defaultContentPageLayout: PageLayout = {
         const isIndex = page.fileData.slug === "index" || 
                        page.fileData.slug === "" ||
                        page.slug === "index" ||
-                       page.fileData.frontmatter?.title === "Home" ||
+                       page.fileData.frontmatter?.title === "Index" ||
                        !page.fileData.slug; // Empty slug often means index
         
         return !isIndex; // Return false (hide breadcrumbs) if it's the index page
@@ -105,7 +105,7 @@ export const defaultListPageLayout: PageLayout = {
         
         // Check by other properties just in case
         if (node.data) {
-          if (node.data.slug === "index" || node.data.title === "Home") {
+          if (node.data.slug === "index" || node.data.title === "Index") {
             return false;
           }
         }

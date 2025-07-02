@@ -1,12 +1,12 @@
 [New Demos](https://www.newdemos.ca/) is an event series in Toronto that showcases unique creations across art, technology, games, food, and more.
 
-### How It Works 
+# How It Works 
 
 Creators present their works-in-progress in a movie theatre setting designed to put clear focus on the work. Each demo is staged intentionally using visuals, sound, and atmosphere to make the work memorable and engaging.
 
 Works are thematically grouped, with Toronto's culture woven throughout the experience.
 
-### Why We Did This 
+# Why We Did This 
 
 Creative work deserves focused presentation, but most mediums rarely get it. While a painting might find its way to a gallery, when do you see software presented with intentional focus on every detail? Or experience a chef's creative process with full attention on their thinking?
 

@@ -1,3 +1,7 @@
+---
+tags:
+  - documentation
+---
 When collaborating with others, each person inevitably holds their own unique mental image of the same project, often subtly or significantly differing from everyone else's. Even in daily interactions, identical words can mean different things to different people, creating hidden misunderstandings.
 
 Therefore, effectively working with others isn't just about task management, it's fundamentally about answering:

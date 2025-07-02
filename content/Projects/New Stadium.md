@@ -1,3 +1,7 @@
+---
+tags:
+  - project
+---
 New Stadium is our physical presence located on 83 Walnut Avenue, Toronto.
 
 The environment designed to improve how people learn and make new things. It focuses on two processes:

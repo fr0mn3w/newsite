@@ -6,7 +6,7 @@ Therefore, effectively working with others isn't just about task management, it'
 
 The single most effective solution to this is **prototyping**.
 
-### What is Prototyping? 
+# What is Prototyping? 
 
 Prototyping involves quickly creating simplified, tangible versions of ideas or concepts to explore, test, refine and align them with reality.
 
@@ -19,9 +19,9 @@ Here's the simple prototyping cycle:
 
 Prototyping is especially powerful because, unlike a brief, it allows interaction with real-world conditions, revealing hidden issues, and aligning everyone around a shared, visible reality.
 
-### Real World Examples: New Demos 
+# Real World Examples: New Demos 
 
-##### Prototype 1: Concept Validation (Tweet) 
+## Prototype 1: Concept Validation (Tweet) 
 
 The first prototype of the concept that would later become [[New Demos]] was a tweet:
 
@@ -34,7 +34,7 @@ This tweet specifically tested:
 
 Publishing this tweet allowed direct observation and feedback. With significant engagement (54.6k views), it validated the demand and confirmed the potential excitement around this idea.
 
-##### Prototype 2: New Demos 1 (Physical Event) 
+## Prototype 2: New Demos 1 (Physical Event) 
 
 Using insights from the tweet prototype, the first physical event named "[New Demos](https://publish.obsidian.md/new/New/New+Demos)"  
 was created.
@@ -57,7 +57,7 @@ Outcomes included:
 - The event heavily skewed towards tech demos, lacking sufficient representation from creative fields.
 - The audience consistent predominantly of men, highlighting a need for greater gender diversity.
 
-##### Prototype 3: New Demos 2 (Enhanced Event) 
+## Prototype 3: New Demos 2 (Enhanced Event) 
 
 In direct response to the challenges identified in the first event, the next prototype event was designed with specific improvements:
 
@@ -70,7 +70,7 @@ In direct response to the challenges identified in the first event, the next pro
 
 Insights from this event confirmed the effectiveness of specific improvements, particularly the impact of high-quality AV, balanced content, distinctive art direction, and active diversity outreach.
 
-#### Common Misunderstandings 
+## Common Misunderstandings 
 
 - **"Prototyping is random tinkering"** - Prototyping involves deliberate experiments designed to answer specific questions.
 - **"Prototyping is time consuming"** - Effective prototyping is intentionally quick and iterative.

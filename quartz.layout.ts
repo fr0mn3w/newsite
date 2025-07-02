@@ -29,18 +29,7 @@ export const defaultContentPageLayout: PageLayout = {
         return !isIndex; // Return false (hide breadcrumbs) if it's the index page
       },
     }),
-    Component.ConditionalRender({
-      component: Component.ArticleTitle(),
-      condition: (page) => {
-        const isIndex = page.fileData.slug === "index" || 
-                       page.fileData.slug === "" ||
-                       page.slug === "index" ||
-                       page.fileData.frontmatter?.title === "Index" ||
-                       !page.fileData.slug;
-        
-        return !isIndex; // Hide article title on index page
-      },
-    }),
+    Component.ArticleTitle(),
     Component.ConditionalRender({
       component: Component.ContentMeta(),
       condition: (page) => {
@@ -53,18 +42,7 @@ export const defaultContentPageLayout: PageLayout = {
         return !isIndex; // Hide metadata on index page
       },
     }),
-    Component.ConditionalRender({
-      component: Component.TagList(),
-      condition: (page) => {
-        const isIndex = page.fileData.slug === "index" || 
-                       page.fileData.slug === "" ||
-                       page.slug === "index" ||
-                       page.fileData.frontmatter?.title === "Index" ||
-                       !page.fileData.slug;
-        
-        return !isIndex; // Hide tags on index page
-      },
-    }),
+    Component.TagList(),
   ],
   left: [
     Component.PageTitle(),

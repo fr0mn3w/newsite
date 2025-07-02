@@ -40,7 +40,7 @@ Publishing this tweet allowed direct observation and feedback. With significant 
 
 ## Prototype 2: New Demos 1 (Physical Event) 
 
-Using insights from the tweet prototype, the first physical event named "[New Demos](https://publish.obsidian.md/new/New/New+Demos)"  
+Using insights from the tweet prototype, the first physical event named [New Demos](https://publish.obsidian.md/new/New/New+Demos)  
 was created.
 
 - We secured a venue in Roncesvalles and sponsorship from local companies.

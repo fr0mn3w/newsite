@@ -42,7 +42,18 @@ export const defaultContentPageLayout: PageLayout = {
         return !isIndex; // Hide metadata on index page
       },
     }),
-    Component.TagList(),
+    Component.ConditionalRender({
+      component: Component.TagList(),
+      condition: (page) => {
+        const isIndex = page.fileData.slug === "index" || 
+                       page.fileData.slug === "" ||
+                       page.slug === "index" ||
+                       page.fileData.frontmatter?.title === "Index" ||
+                       !page.fileData.slug;
+        
+        return !isIndex; // Hide tags on index page
+      },
+    }),
   ],
   left: [
     Component.PageTitle(),

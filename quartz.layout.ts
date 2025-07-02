@@ -30,7 +30,18 @@ export const defaultContentPageLayout: PageLayout = {
       },
     }),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (page) => {
+        const isIndex = page.fileData.slug === "index" || 
+                       page.fileData.slug === "" ||
+                       page.slug === "index" ||
+                       page.fileData.frontmatter?.title === "Index" ||
+                       !page.fileData.slug;
+        
+        return !isIndex; // Hide metadata on index page
+      },
+    }),
     Component.TagList(),
   ],
   left: [
